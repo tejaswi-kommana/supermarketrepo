@@ -1,0 +1,21 @@
+<web-app>
+
+  
+
+
+
+<servlet>
+ <servlet-name>newuser</servlet-name>
+ <servlet-class>newUserservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>newuser</servlet-name>
+ <url-pattern>/newuserlogin</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
+
+
